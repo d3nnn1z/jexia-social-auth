@@ -1,0 +1,33 @@
+<form class="form-signin" action="/register" method="post">
+    <h2 class="form-signin-heading">Please register</h2>
+    <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
+    <br />
+    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required autofocus>
+    <input type="password" name="confirmPassword" class="form-control" placeholder="Confirm Password" required autofocus>
+    <br />
+
+    <input type="email" name="email" class="form-control" placeholder="Email" required autofocus>
+    <input type="text" name="firstName" class="form-control" placeholder="First name" required autofocus>
+    <input type="text" name="lastName" class="form-control" placeholder="Last name" required autofocus>
+    <br />
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+    I have an account! <a href="/login">Login</a>
+</form>
+
+<script>
+    $('.form-signin').validate({
+        rules : {
+        	password : {
+        		minlength : 5
+        	},
+        	confirmPassword : {
+        		minlength : 5,
+        		equalTo : "#password"
+        	}
+        }
+    });
+
+    $('button').click(function(){
+        $('.form-signin').valid();
+    });
+</script>

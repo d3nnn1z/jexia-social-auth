@@ -1,0 +1,45 @@
+{
+  "name": "jexia-social-auth",
+  "version": "1.0.0",
+  "description": "A simple prototype demonstrating how to use Jexia to provide custom and social authentication for end users.",
+  "homepage": "https://github.com/d3nnn1z/jexia-social-auth#README",
+  "bugs:": {
+    "url": "https://github.com/d3nnn1z/jexia-social-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3nnn1z/jexia-social-auth.git"
+  },
+  "author": {
+    "name": "Dionysis Pantazopoulos",
+    "email": "d3nnn1z@gmail.com"
+  },
+  "keywords": [
+    "jexia",
+    "sdk",
+    "social",
+    "session",
+    "authentication"
+  ],
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.13.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "hbs-json": "^0.1.1",
+    "jexia-sdk-js": "^1.1.3",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.0.0",
+    "passport-github": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= v0.12.0"
+  }
+}

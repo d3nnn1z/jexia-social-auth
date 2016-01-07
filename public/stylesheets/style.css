@@ -1,0 +1,153 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+  color: #000;
+  background-color: #fab700;
+  border-color: #285e8e;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.navbar-default {
+    background-color: #fab700;
+    border-color: #524e70;
+}
+
+
+.heart {
+    font-size: 20px;
+    color: red;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.pulse {
+    -webkit-animation: pulse 3s linear infinite;
+    -moz-animation: pulse 3s linear infinite;
+    -ms-animation: pulse 3s linear infinite;
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+       -o-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+       transform: scale(1.1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+       -moz-transform: scale(0.8);
+       -o-transform: scale(0.8);
+       -ms-transform: scale(0.8);
+       transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+       -o-transform: scale(1);
+       -ms-transform: scale(1);
+       transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pulse {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pulse" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pulse" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+}

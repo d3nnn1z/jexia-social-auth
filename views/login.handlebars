@@ -1,0 +1,31 @@
+<form class="form-signin" action="/login" method="post">
+    <h2 class="form-signin-heading">Please login</h2>
+
+    {{message}}
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
+
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" name="password" class="form-control" placeholder="Password" required>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    Not registered yet? <a href="/register">Create an account</a>
+
+    <br /><br />
+
+    <a class="btn btn-block btn-social btn-twitter" href="http://127.0.0.1:3000/login/twitter">
+        <span class="fa fa-twitter"></span>
+        Sign in with Twitter
+    </a>
+
+    <a class="btn btn-block btn-social btn-facebook" href="login/facebook">
+        <span class="fa fa-facebook"></span>
+        Sign in with Facebook
+    </a>
+
+    <a class="btn btn-block btn-social btn-github" href="login/github">
+        <span class="fa fa-github"></span>
+        Sign in with Github
+    </a>
+
+</form>
