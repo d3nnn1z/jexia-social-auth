@@ -16,7 +16,7 @@ A simple prototype demonstrating how to use [Jexia](https://www.jexia.com) to pr
 
 3. ```node app.js```
 
-4. Open your browser at ```http://localhost:3000```
+4. Open your browser at http://localhost:3000
 
 5. Don't forget to [configure](https://github.com/d3nnn1z/jexia-social-auth#Configuration) your app details under config/ folder.
 >You can register as a new user or use the links to login through a social provider.
