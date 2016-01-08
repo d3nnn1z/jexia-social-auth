@@ -51,6 +51,14 @@ Update the config/github.js with your github app details.
 > For twitter you must load the application through http://127.0.0.0:3000/.
 This is only for your local development because twitter doesn't accept localhost as a valid domain.
 
+## Screenshots
+
+### Login
+![Login](http://i.imgur.com/mXsctJI.png)
+
+### Register
+![Register](http://i.imgur.com/PZ4KaU3.png)
+
 ## License
 
 The MIT License (MIT)
